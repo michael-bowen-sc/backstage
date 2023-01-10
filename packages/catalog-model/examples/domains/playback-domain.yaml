@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: playback
-  description: Everything related to audio playback
+  name: aladdin
+  description: Everything related to Aladdin
 spec:
-  owner: user:frank.tiernan
+  owner: user:joe.bob
