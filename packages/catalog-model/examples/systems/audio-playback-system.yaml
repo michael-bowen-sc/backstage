@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: audio-playback
-  description: Audio playback system
+  name: argocd
+  description: ArgoCD gitops control plane
 spec:
-  owner: team-c
-  domain: playback
+  owner: cnp-core
+  domain: blackrock
