@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: podcast
-  description: Podcast playback
+  name: service-mesh
+  description: Service-mesh for mTLS
 spec:
-  owner: team-b
-  domain: playback
+  owner: cnp-sdn
+  domain: blackrock
