@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: queue-proxy
-  description: Queue Proxy
+  name: cnp-portal
+  description: CNP portal Proxy
   tags:
     - go
     - website
 spec:
   type: website
   lifecycle: production
-  owner: team-b
-  system: podcast
+  owner: cnp-core
+  system: cnp

@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: acme-corp
-  description: The acme-corp organization
+  name: blackrock
+  description: The blackrock organization
   links:
     - url: http://www.acme.com/
       title: Website
@@ -11,16 +11,16 @@ metadata:
 spec:
   type: organization
   profile:
-    displayName: ACME Corp
+    displayName: BlackRcok
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [infrastructure]
+  children: [aladdin]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-groups
-  description: A collection of all Backstage example Groups
+  name: blackrock-groups
+  description: A collection of all BLK example Groups
 spec:
   targets:
     - ./infrastructure-group.yaml

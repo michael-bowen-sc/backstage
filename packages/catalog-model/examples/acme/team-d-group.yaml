@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-d
-  description: Team D
+  name: compliance
+  description: Compliance
 spec:
   type: team
   profile:
-    displayName: Team D
+    displayName: Compliance
     email: team-d@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-d@example.com.svg?background=%23fff&margin=25
   parent: boxoffice
@@ -21,7 +21,7 @@ spec:
     displayName: Eva MacDowell
     email: eva-macdowell@example.com
     picture: https://avatars.dicebear.com/api/avataaars/eva-macdowell@example.com.svg?background=%23fff
-  memberOf: [team-d]
+  memberOf: [compliance]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -32,4 +32,4 @@ spec:
     displayName: Lucy Sheehan
     email: lucy-sheehan@example.com
     picture: https://avatars.dicebear.com/api/avataaars/lucy-sheehan@example.com.svg?background=%23fff
-  memberOf: [team-d]
+  memberOf: [compliance]

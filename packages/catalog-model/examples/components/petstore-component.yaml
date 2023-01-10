@@ -1,18 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: petstore
+  name: keda
   # This is an extra long description
-  description: The Petstore is an example API used to show features of the OpenAPI spec.
+  description: The keda is an example API used to show features of the OpenAPI spec.
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
+    - url: https://github.com/swagger-api/swagger-keda
       title: GitHub Repo
       icon: github
 spec:
   type: service
   lifecycle: experimental
-  owner: team-c
+  owner: cnp-core
   providesApis:
-    - petstore
-    - streetlights
-    - hello-world
+    - scalers
+    - telemetry
+    - events

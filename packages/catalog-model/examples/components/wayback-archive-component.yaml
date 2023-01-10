@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: wayback-archive
-  description: Archive of the wayback machine
+  name: cnp-state-archive
+  description: CNP archive of historic state
 spec:
   type: service
   lifecycle: production
-  owner: team-a
+  owner: cnp
   providesApis:
-    - wayback-archive
+    - cnp-state-archive

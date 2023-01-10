@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: wayback-search
-  description: Search of the wayback machine
+  name: cnp-state-search
+  description: Search of the CNP estate
 spec:
   type: service
   lifecycle: production
-  owner: team-a
+  owner: cnp
   providesApis:
-    - wayback-search
+    - cnp-state-search
   consumesApis:
-    - wayback-archive
+    - cnp-state-archive

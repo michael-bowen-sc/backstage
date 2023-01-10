@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: playback-order
-  description: Playback Order
+  name: cluster-intigration-server
+  description: Cluster intigration server
   tags:
-    - java
-    - playback
+    - go
+    - yaml
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
-  system: audio-playback
+  owner: user:cnp
+  system: cnp

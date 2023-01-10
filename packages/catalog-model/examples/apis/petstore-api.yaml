@@ -1,10 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
-  description: The petstore API
+  name: telemetry
+  description: The CNP Prom telemetry API
   tags:
-    - store
+    - prom
+    - k8s
+    - crds
     - rest
   links:
     - url: https://github.com/swagger-api/swagger-petstore
@@ -16,7 +18,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: team-c
+  owner: cnp
   definition: |
     openapi: "3.0.0"
     info:

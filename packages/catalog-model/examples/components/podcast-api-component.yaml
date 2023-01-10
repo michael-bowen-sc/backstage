@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: podcast-api
-  description: Podcast API
+  name: cluster-lookup-api
+  description: Cluster Lookup API
   tags:
-    - java
+    - go
 spec:
   type: service
   lifecycle: experimental
-  owner: team-b
-  system: podcast
+  owner: cnp-core
+  system: cnp

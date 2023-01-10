@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: playback-sdk
-  description: Audio and video playback SDK
+  name: cnp-sdk
+  description: CNP SDK
 spec:
   type: library
   lifecycle: experimental
-  owner: team-c
-  system: audio-playback
+  owner: cnp-core
+  system: cnp

@@ -1,18 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: streetlights
-  description: The Smartylighting Streetlights API allows you to remotely manage the city lights.
+  name: scalers
+  description: KEDA Scalers
   tags:
-    - mqtt
+    - k8s
+    - crds
   links:
-    - url: https://github.com/asyncapi/asyncapi/blob/master/examples/1.2.0/streetlights.yml
+    - url: https://github.com/asyncapi/asyncapi/blob/master/examples/1.2.0/scalers.yml
       title: Source Code
       icon: code
 spec:
   type: asyncapi
   lifecycle: production
-  owner: team-c
+  owner: cnp
   definition: |
     asyncapi: 2.0.0
     info:

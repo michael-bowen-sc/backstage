@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: searcher
-  description: Searcher
+  name: ea-searcher
+  description: EA doc searcher
   tags:
     - go
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: user:ea

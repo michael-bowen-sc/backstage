@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: wayback-archive-storage
-  description: Storage subsystem of the Wayback Archive
+  name: cnp-state-archivee-storage
+  description: Storage subsystem of the CNP state archive
 spec:
   type: service
   lifecycle: production
-  owner: team-a
-  subcomponentOf: wayback-archive
+  owner: cnp
+  subcomponentOf: cnp-state-archive
