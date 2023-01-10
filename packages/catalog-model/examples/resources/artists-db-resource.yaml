@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: artists-db
-  description: Stores artist details
+  name: astradb
+  description: Stores analytics data
 spec:
   type: database
-  owner: team-a
-  system: artist-engagement-portal
+  owner: doe-devops
+  system: astra-calc
