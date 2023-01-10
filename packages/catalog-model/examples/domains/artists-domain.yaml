@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: artists
-  description: Everything related to artists
+  name: blackrock
+  description: Everything related to blackrock
   links:
-    - url: http://example.com/domain/artists/
+    - url: http://blackrock.com/domain/fakedata/
       title: Domain Readme
-    - url: http://example.com/domains/artists/dashboard
+    - url: http://blackrock.com/domains/fakedata/dashboard
       title: Domain Metrics Dashboard
       icon: dashboard
 spec:
-  owner: team-a
+  owner: platform
