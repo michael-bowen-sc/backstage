@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: astra-lookup
   description: Astra Lookup
+  annotations:
+    backstage.io/techdocs-ref: value
   tags:
     - go
     - data
